@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #355976;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body a {
+    outline: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.inn-list .list-item ul {
+    width: 1000px;
+}
+
+.animated {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.inn-list .list-item ul li.inn-item {
+    width: 188px;
+    height: 270px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    background-color: #fff;
+    transition: border-bottom .7s ease-out;
+}
+
+.inn-list .list-item ul li.inn-item div.img-desc {
+    position: absolute;
+    top: 124px;
+    height: 26px;
+    width: 100%;
+    text-align: left;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.inn-list .list-item ul li.inn-item div.img-desc .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("//img.alicdn.com/tps/i2/TB1NdtoFVXXXXcmXVXXVCBKTXXX-200-400.png");
+    background-position: 0 -300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+.inn-list .list-item ul li.inn-item div.img-desc h4 {
+    padding-left: 10px;
+}
+
+.list-item ul li.inn-item div.img-desc h4 a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    position: relative;
+    text-shadow: 0 0 1px rgba(0,0,0,0.7);
+}
+
+.inn-list .list-item ul li.inn-item a.img-link {
+    position: relative;
+    display: block;
+    height: 150px;
+    overflow: hidden;
+}
+
+.inn-list .list-item ul li.inn-item div.price {
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",tohoma,sans-serif;
+    text-align: left;
+    padding-left: 7px;
+    color: #ff5741;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0 3px;
+    position: relative;
+    height: 44px;
+}
+
+.pi-price {
+    font-family: tahoma,verdana;
+    line-height: 1;
+    vertical-align: baseline;
+    color: #ff5741;
+}
+
+.inn-list .list-item ul li.inn-item div.price .pi-price {
+    line-height: 44px;
+    font-size: 20px;
+}
+
+.pi-price i {
+    font-family: arial;
+    font-style: normal;
+    font-weight: normal;
+    padding-right: 4px;
+}
+
+.inn-list .list-item ul li.inn-item div.price .sub {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.inn-list .list-item ul li.inn-item div.price .mark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 16px;
+    line-height: 16px;
+    border-left: 1px solid #eee;
+    margin: 14px 0;
+    color: #8a9ca8;
+    padding: 0 10px;
+}
+
+.inn-list .list-item ul li.inn-item div.price .mark em {
+    margin-left: 4px;
+    color: #388ec7;
+}
+
+.inn-list .list-item ul li.inn-item div.comment {
+    margin-top: 6px;
+    overflow: hidden;
+    padding: 0 10px;
+    border-bottom: 2px solid #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 168px;
+    transition: border-bottom .7s ease-out;
+}
+
+.inn-list .list-item ul li.inn-item div.comment .title {
+    display: inline-block;
+    color: #859baa;
+    line-height: 26px;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.inn-list .list-item ul li.inn-item div.comment .count {
+    display: inline-block;
+    line-height: 26px;
+    color: #388ec7;
+    font-size:12px;
+}
+
+.inn-list .list-item ul li.inn-item div.comment .count a {
+    color: #388ec7;
+}
+
+.inn-list .list-item ul li.inn-item div.comment .desc {
+    clear: left;
+    line-height: 18px;
+    text-align: left;
+    color: #859baa;
+    height: 40px;
+}
+
+.inn-list .list-title {
+    float: left;
+    margin: 10px 10px 10px 0;
+    clear: left;
+    width: 188px;
+    height: 270px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    background-image: url("//img.alicdn.com/tps/i3/TB1wClwFVXXXXckXXXXfkCuYVXX-178-261.png");
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+
+.inn-list .list-title h3 {
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",tohoma,sans-serif;
+    color: #21b6b8;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.inn-list .list-title p.desc {
+    padding: 15px 24px;
+    text-align: left;
+}
+
+.inn-list .list-title p.desc span {
+    color: #859baa;
+    line-height: 25px;
+    padding: 5px 0;
+}
+
+.has-trans {
+    transition: all .3s ease-out;
+}
+
+.inn-list .list-title a.more-link {
+    display: block;
+    width: 100%;
+    color: #63b8f0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 38px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.inn-list .list-title a.more-link:hover {
+    color: #ff4b34;
+}
+
+.inn-list .list-item {
+    float: left;
+    margin: 10px 0;
+    width: 790px;
+}
+
+.inn-list .list-item {
+    width: 990px;
+}
